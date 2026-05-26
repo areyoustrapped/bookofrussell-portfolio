@@ -154,20 +154,20 @@
     .yt-wrap {
       margin-top: 12px;
       position: relative;
-      width: 100%;
+      height: 240px;
       aspect-ratio: 16 / 9;
-      max-height: 240px;
+      max-width: 100%;
       overflow: hidden;
       background: #000;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .yt-wrap iframe {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 110%;
-      height: 110%;
-      transform: translate(-50%, -50%);
+      inset: 0;
+      width: 100%;
+      height: 100%;
       border: 0;
     }
 
@@ -435,7 +435,8 @@
         <span class="entry-date">2025</span>
         <p class="entry-title"><a href="https://www.youtube.com/watch?v=1jCLUbqghs8&list=PLHXp_sXbKE50TGpllvgxAsfOgCUScQ6oV&index=1" target="_blank" rel="noopener">&ldquo;Stick Fingers&rdquo; by Malaya</a></p>
         <span class="entry-subtitle">Music Video</span>
-        <div class="yt-wrap">?si=AxzMN6T0J-HDsXDz&autoplay=1&mute=1&controls=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="yt-wrap">
+          <iframe src="https://www.youtube.com/embed/1jCLUbqghs8?autoplay=1&mute=1&controls=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </li>
 
